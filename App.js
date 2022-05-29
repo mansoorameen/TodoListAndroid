@@ -58,7 +58,7 @@ export default function App() {
     <View style={styles.container}>
       <View style={styles.inputContainer}>
         <TextInput
-          placeholder="I am going to..."
+          placeholder="I am going to.."
           style={styles.input}
           onChangeText={todoInputHandler}
           value={newTodo?.name}
